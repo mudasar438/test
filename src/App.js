@@ -10,7 +10,7 @@ import Protected from './component/protected';
 function App() {
   return (
     <>
-    <div className="">
+    <div className="bg-red">
 <Router>
   <Routes>
     <Route path="/" element={<Protected Component={Home}/>} />
