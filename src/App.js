@@ -6,6 +6,7 @@ import Home from './component/home';
 import About from './component/about';
 import Content from './component/contact';
 import Protected from './component/protected';
+import Demo from './component/demo';
 // hello this is changes for git
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <Route path='/login' element={<Login/>} />
     <Route path='/about' element={<Protected Component={About}/>} />
     <Route path='/contact' element={<Content/>}/>
+    <Route path='/Demo' element={<Demo/>} />
     
   </Routes>
 
