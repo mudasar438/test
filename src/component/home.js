@@ -6,6 +6,7 @@ const Home = () => {
     <Nav/>
 
     Home 
+    This is home page 
     
     
     </>
